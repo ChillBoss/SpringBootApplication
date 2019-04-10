@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/rest/docker/chythu")
-public class HelloResource {
+public class HelloResource1 {
 
     @GetMapping
     public String hello(){
